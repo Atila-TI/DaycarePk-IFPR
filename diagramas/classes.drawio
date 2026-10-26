@@ -8,7 +8,7 @@
           <mxGeometry x="50" y="80" width="300" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="pokemon" value="&lt;b&gt;Pokemon&lt;/b&gt;&lt;hr&gt;+ idPokemon: int&lt;br&gt;+ nome: String&lt;br&gt;+ tipo: String&lt;hr&gt;+ consultarHistorico(): List&lt;Estadia&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="440" y="80" width="300" height="180" as="geometry"/>
+          <mxGeometry x="440" y="80" width="350" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="estadia" value="&lt;b&gt;Estadia&lt;/b&gt;&lt;hr&gt;+ idEstadia: int&lt;br&gt;+ dataEntrada: Date&lt;br&gt;+ dataPrevistaRetirada: Date&lt;br&gt;+ dataSaida: Date?&lt;br&gt;+ observacoesEntrada: String&lt;hr&gt;+ registrarEntrada(...): void&lt;br&gt;+ registrarSaida(dataSaida: Date): void&lt;br&gt;+ estaAtiva(): boolean&lt;br&gt;+ calcularTempoPermanencia(): int" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="240" y="410" width="430" height="260" as="geometry"/>
