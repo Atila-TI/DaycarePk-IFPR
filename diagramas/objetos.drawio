@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net" modified="2026-10-26T17:00:00.000Z" agent="Copilot" version="24.7.17">
+  <diagram id="daycarepk-objects" name="objetos">
+    <mxGraphModel dx="1450" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1450" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ana" value="&lt;b&gt;ana:Treinador&lt;/b&gt;&lt;hr&gt;idTreinador = 1&lt;br&gt;nome = &quot;Ana&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="270" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="pikachu" value="&lt;b&gt;pikachu:Pokemon&lt;/b&gt;&lt;hr&gt;idPokemon = 1&lt;br&gt;nome = &quot;Pikachu&quot;&lt;br&gt;tipo = &quot;Elétrico&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="430" y="70" width="300" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="stay1" value="&lt;b&gt;estadia1:Estadia&lt;/b&gt;&lt;hr&gt;dataEntrada = 2026-09-10&lt;br&gt;dataPrevistaRetirada = 2026-09-20&lt;br&gt;dataSaida = 2026-09-18" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="40" y="430" width="360" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="stay2" value="&lt;b&gt;estadia2:Estadia&lt;/b&gt;&lt;hr&gt;dataEntrada = 2026-10-20&lt;br&gt;dataPrevistaRetirada = 2026-11-02&lt;br&gt;dataSaida = vazio" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="380" height="170" as="geometry"/>
+        </mxCell>
+        <mxCell id="record1" value="&lt;b&gt;registro1:RegistroDesenvolvimento&lt;/b&gt;&lt;hr&gt;dataRegistro = 2026-10-22&lt;br&gt;progresso = &quot;Mais disposto&quot;&lt;br&gt;cuidados = &quot;Acompanhamento diário&quot;&lt;br&gt;evolucao = vazio" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="430" width="400" height="190" as="geometry"/>
+        </mxCell>
+        <mxCell id="anaStay1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="ana" target="stay1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="300"/>
+              <mxPoint x="200" y="300"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="anaStay2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="ana" target="stay2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="340"/>
+              <mxPoint x="630" y="340"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pokemonStay1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="pikachu" target="stay1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="285"/>
+              <mxPoint x="220" y="285"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pokemonStay2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="pikachu" target="stay2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="330"/>
+              <mxPoint x="630" y="330"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stayRecord" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="stay2" target="record1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
