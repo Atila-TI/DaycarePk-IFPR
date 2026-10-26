@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2026-10-26T17:44:00.000Z" agent="Copilot" version="24.7.17">
+  <diagram id="daycarepk-use-cases" name="casos-de-uso">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="boundary" value="DaycarePk" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;spacingTop=12;fontSize=20;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="840" height="740" as="geometry"/>
+        </mxCell>
+        <mxCell id="dona" value="Dona da Daycare" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="75" y="335" width="100" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="treinador" value="Treinador" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="335" width="100" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-entrada" value="Registrar entrada dos Pokémon&lt;br&gt;na Daycare" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485" y="125" width="430" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-saida" value="Registrar saída dos Pokémon" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485" y="260" width="430" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-listar" value="Listar Pokémon em estadia" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485" y="395" width="430" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-desenvolvimento" value="Acompanhar desenvolvimento&lt;br&gt;dos Pokémon" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485" y="530" width="430" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc-previsao" value="Indicar previsão de retirada" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="485" y="665" width="430" height="85" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-entrada" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="dona" target="uc-entrada">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-saida" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="dona" target="uc-saida">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-listar" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="dona" target="uc-listar">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-desenvolvimento" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="dona" target="uc-desenvolvimento">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-dona-previsao" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="dona" target="uc-previsao">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="assoc-treinador-previsao" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;" edge="1" parent="1" source="treinador" target="uc-previsao">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
