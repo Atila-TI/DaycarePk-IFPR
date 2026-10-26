@@ -16,7 +16,7 @@
         <mxCell id="registro" value="&lt;b&gt;RegistroDesenvolvimento&lt;/b&gt;&lt;hr&gt;+ idRegistro: int&lt;br&gt;+ dataRegistro: Date&lt;br&gt;+ progresso: String&lt;br&gt;+ cuidados: String&lt;br&gt;+ evolucao: String?&lt;hr&gt;+ registrar(...): void" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacing=10;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="800" y="420" width="350" height="220" as="geometry"/>
         </mxCell>
-        <mxCell id="trainerstay" value="&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="treinador" target="estadia">
+        <mxCell id="trainerstay" value="é responsável por" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=14;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="treinador" target="estadia">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="315" as="sourcePoint"/>
             <mxPoint x="300" y="315" as="targetPoint"/>
@@ -26,7 +26,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pokemonstay" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="pokemon" target="estadia">
+        <mxCell id="pokemonstay" value="tem estadias" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;fontSize=14;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="pokemon" target="estadia">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="335"/>
@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="stayrecord" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;" edge="1" parent="1" source="estadia" target="registro">
+        <mxCell id="stayrecord" value="mantém" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=diamondThin;startFill=1;startSize=18;fontSize=14;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="estadia" target="registro">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="multiplicity1" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
